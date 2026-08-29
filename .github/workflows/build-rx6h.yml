@@ -55,4 +55,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: OpenHome-ARM64
-          path: src-tauri/target/release/bundle/**
+          path: target/release/bundle/**
